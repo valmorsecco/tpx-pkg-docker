@@ -9,7 +9,13 @@ Three Pixels package to install docker.
 $ git clone https://github.com/valmorsecco/tpx-pkg-docker.git
 ```
 
-2. Run install.sh:
+2. Go to tpx-pkg-docker folder:
+
+```bash
+$ cd tpx-pkg-docker
+```
+
+3. Run install.sh:
 
 ```bash
 $ chmod +x install.sh
