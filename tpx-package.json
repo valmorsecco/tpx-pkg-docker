@@ -1,0 +1,11 @@
+{
+  "name": "tpx-pkg-docker",
+  "version": "1",
+  "private": false,
+  "description": "Three pixels package docker.",
+  "author": "Three Pixels Sistemas",
+  "install": {
+    "docker": "latest",
+    "docker-compose": "1.29.2"
+  }
+}
