@@ -58,12 +58,12 @@ tryEcho() {
       echo -ne "=> $DESCRIPTION $RESULT \r"
       echo -ne "=> $DESCRIPTION $RESULT \r" >> $LOGFILE
     else
-      echo "=> $DESCRIPTION $RESULT" >&2
+      echo "=> $DESCRIPTION $RESULT"
       echo "=> $DESCRIPTION $RESULT" >> $LOGFILE
     fi    
   else
     if [ $RESULT == "..." ]; then
-      echo "$DESCRIPTION" >&2
+      echo "$DESCRIPTION"
       echo "$DESCRIPTION" >> $LOGFILE
     else 
       printf "\n\n"
