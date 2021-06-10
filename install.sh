@@ -224,10 +224,6 @@ tpxPkg() {
 ###
 tpxPkgLog() {
   local UUID=$(dmidecode -s system-uuid)
-  local DOCKER_VERSION=$(docker -v)
-  local DOCKER_COMPOSE_VERSION=$(docker-compose -v)
-  local installedDocker='.installed."docker" = "'$DOCKER_VERSION'"'
-  local installedDockerCompose='.installed."docker-compose" = "'$DOCKER_COMPOSE_VERSION'"'
 
   # Create .tpx directory
   if [ ! -d "$PKG_PATH" ]; then
